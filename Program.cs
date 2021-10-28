@@ -17,7 +17,7 @@ namespace Student_Enrollment_System
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StudentEnrolmentForm());
+            Application.Run(new HomePageForm());
         }
     }
 }

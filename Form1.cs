@@ -13,9 +13,11 @@ namespace Student_Enrollment_System
 {
     public partial class StudentEnrolmentForm : Form
     {
+        public static StudentEnrolmentForm instance;
         public StudentEnrolmentForm()
         {
             InitializeComponent();
+            instance = this;
         }
 
         SqlConnection con = new SqlConnection(@"Server=.;Database=student_management;"+
@@ -79,7 +81,7 @@ namespace Student_Enrollment_System
                 if ( !String.IsNullOrWhiteSpace(textRegistrationNumber.Text)
                     && !String.IsNullOrWhiteSpace(textStudentName.Text)
                     && !String.IsNullOrWhiteSpace(textContactNumber.Text)
-                    && !String.IsNullOrWhiteSpace(courseEnrolled.SelectedItem.ToString()))
+                    && courseEnrolled.SelectedIndex != -1)
                 {
                     int registrationNumber = Int16.Parse(textRegistrationNumber.Text);
                     string studentName = textStudentName.Text;
