@@ -55,6 +55,7 @@ namespace Student_Enrollment_System
             // 
             // FormTitle
             // 
+            this.FormTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.FormTitle.AutoSize = true;
             this.FormTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.FormTitle.Location = new System.Drawing.Point(290, 9);
@@ -65,6 +66,7 @@ namespace Student_Enrollment_System
             // 
             // registrationNumberLabel
             // 
+            this.registrationNumberLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.registrationNumberLabel.AutoSize = true;
             this.registrationNumberLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.registrationNumberLabel.Location = new System.Drawing.Point(55, 102);
@@ -75,6 +77,7 @@ namespace Student_Enrollment_System
             // 
             // studentNameLabel
             // 
+            this.studentNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.studentNameLabel.AutoSize = true;
             this.studentNameLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.studentNameLabel.Location = new System.Drawing.Point(55, 163);
@@ -85,6 +88,7 @@ namespace Student_Enrollment_System
             // 
             // dateOfBirthLabel
             // 
+            this.dateOfBirthLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.dateOfBirthLabel.AutoSize = true;
             this.dateOfBirthLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dateOfBirthLabel.Location = new System.Drawing.Point(55, 223);
@@ -95,6 +99,7 @@ namespace Student_Enrollment_System
             // 
             // genderLabel
             // 
+            this.genderLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.genderLabel.AutoSize = true;
             this.genderLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.genderLabel.Location = new System.Drawing.Point(55, 278);
@@ -105,6 +110,7 @@ namespace Student_Enrollment_System
             // 
             // contactNumberLabel
             // 
+            this.contactNumberLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.contactNumberLabel.AutoSize = true;
             this.contactNumberLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.contactNumberLabel.Location = new System.Drawing.Point(55, 343);
@@ -115,6 +121,7 @@ namespace Student_Enrollment_System
             // 
             // courseEnrolledLabel
             // 
+            this.courseEnrolledLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.courseEnrolledLabel.AutoSize = true;
             this.courseEnrolledLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.courseEnrolledLabel.Location = new System.Drawing.Point(55, 409);
@@ -125,6 +132,7 @@ namespace Student_Enrollment_System
             // 
             // textRegistrationNumber
             // 
+            this.textRegistrationNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textRegistrationNumber.Location = new System.Drawing.Point(324, 98);
             this.textRegistrationNumber.Name = "textRegistrationNumber";
             this.textRegistrationNumber.Size = new System.Drawing.Size(288, 27);
@@ -133,6 +141,7 @@ namespace Student_Enrollment_System
             // 
             // textStudentName
             // 
+            this.textStudentName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textStudentName.Location = new System.Drawing.Point(324, 159);
             this.textStudentName.Name = "textStudentName";
             this.textStudentName.Size = new System.Drawing.Size(288, 27);
@@ -140,6 +149,7 @@ namespace Student_Enrollment_System
             // 
             // dateOfBirthPicker
             // 
+            this.dateOfBirthPicker.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateOfBirthPicker.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dateOfBirthPicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateOfBirthPicker.Location = new System.Drawing.Point(324, 219);
@@ -150,6 +160,7 @@ namespace Student_Enrollment_System
             // 
             // ageLabel
             // 
+            this.ageLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ageLabel.AutoSize = true;
             this.ageLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ageLabel.Location = new System.Drawing.Point(518, 223);
@@ -160,6 +171,7 @@ namespace Student_Enrollment_System
             // 
             // textAge
             // 
+            this.textAge.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textAge.Location = new System.Drawing.Point(594, 219);
             this.textAge.Name = "textAge";
             this.textAge.ReadOnly = true;
@@ -168,6 +180,7 @@ namespace Student_Enrollment_System
             // 
             // textContactNumber
             // 
+            this.textContactNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textContactNumber.Location = new System.Drawing.Point(324, 339);
             this.textContactNumber.Name = "textContactNumber";
             this.textContactNumber.Size = new System.Drawing.Size(288, 27);
@@ -175,6 +188,7 @@ namespace Student_Enrollment_System
             // 
             // courseEnrolled
             // 
+            this.courseEnrolled.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.courseEnrolled.Cursor = System.Windows.Forms.Cursors.Hand;
             this.courseEnrolled.FormattingEnabled = true;
             this.courseEnrolled.Items.AddRange(new object[] {
@@ -191,6 +205,7 @@ namespace Student_Enrollment_System
             // 
             // ButtonInsert
             // 
+            this.ButtonInsert.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ButtonInsert.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ButtonInsert.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ButtonInsert.Location = new System.Drawing.Point(381, 473);
@@ -203,6 +218,7 @@ namespace Student_Enrollment_System
             // 
             // ButtonDelete
             // 
+            this.ButtonDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ButtonDelete.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ButtonDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ButtonDelete.Location = new System.Drawing.Point(381, 549);
@@ -215,6 +231,7 @@ namespace Student_Enrollment_System
             // 
             // ButtonClear
             // 
+            this.ButtonClear.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ButtonClear.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ButtonClear.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ButtonClear.Location = new System.Drawing.Point(381, 629);
@@ -227,6 +244,7 @@ namespace Student_Enrollment_System
             // 
             // ButtonExit
             // 
+            this.ButtonExit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ButtonExit.BackColor = System.Drawing.Color.Red;
             this.ButtonExit.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ButtonExit.Location = new System.Drawing.Point(694, 687);
@@ -239,6 +257,7 @@ namespace Student_Enrollment_System
             // 
             // panelGender
             // 
+            this.panelGender.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelGender.Controls.Add(this.radioFemale);
             this.panelGender.Controls.Add(this.radioMale);
             this.panelGender.Location = new System.Drawing.Point(324, 264);
@@ -248,6 +267,7 @@ namespace Student_Enrollment_System
             // 
             // radioFemale
             // 
+            this.radioFemale.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioFemale.AutoSize = true;
             this.radioFemale.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioFemale.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -261,6 +281,7 @@ namespace Student_Enrollment_System
             // 
             // radioMale
             // 
+            this.radioMale.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioMale.AutoSize = true;
             this.radioMale.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioMale.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);

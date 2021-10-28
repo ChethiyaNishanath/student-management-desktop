@@ -40,18 +40,20 @@ namespace Student_Enrollment_System
             // 
             // StudentAddFormButton
             // 
+            this.StudentAddFormButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.StudentAddFormButton.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.StudentAddFormButton.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.StudentAddFormButton.Location = new System.Drawing.Point(703, 102);
             this.StudentAddFormButton.Name = "StudentAddFormButton";
             this.StudentAddFormButton.Size = new System.Drawing.Size(186, 48);
             this.StudentAddFormButton.TabIndex = 0;
-            this.StudentAddFormButton.Text = "Student Management";
+            this.StudentAddFormButton.Text = "Student Enrolment";
             this.StudentAddFormButton.UseVisualStyleBackColor = false;
             this.StudentAddFormButton.Click += new System.EventHandler(this.StudentAddFormButton_Click);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(84, 182);
             this.dataGridView1.Name = "dataGridView1";
@@ -63,6 +65,7 @@ namespace Student_Enrollment_System
             // 
             // CalculateCourseFeeBtn
             // 
+            this.CalculateCourseFeeBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CalculateCourseFeeBtn.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.CalculateCourseFeeBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.CalculateCourseFeeBtn.Location = new System.Drawing.Point(485, 102);
@@ -75,6 +78,7 @@ namespace Student_Enrollment_System
             // 
             // Refresh
             // 
+            this.Refresh.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Refresh.Location = new System.Drawing.Point(84, 26);
             this.Refresh.Name = "Refresh";
             this.Refresh.Size = new System.Drawing.Size(94, 48);
@@ -85,6 +89,7 @@ namespace Student_Enrollment_System
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(340, 26);
@@ -95,6 +100,7 @@ namespace Student_Enrollment_System
             // 
             // ExitBtn
             // 
+            this.ExitBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ExitBtn.BackColor = System.Drawing.Color.Red;
             this.ExitBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ExitBtn.Location = new System.Drawing.Point(829, 685);
@@ -103,6 +109,7 @@ namespace Student_Enrollment_System
             this.ExitBtn.TabIndex = 6;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = false;
+            this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // HomePageForm
             // 

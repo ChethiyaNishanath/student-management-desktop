@@ -99,7 +99,7 @@ namespace Student_Enrollment_System
                     con.Open();
                     cmd.ExecuteNonQuery();
 
-                    DialogResult result = MessageBox.Show("Saved Successfully\nDo you want to add new student?", "Delete Student Data",
+                    DialogResult result = MessageBox.Show("Saved Successfully\nDo you want to add new student?", "Added Data",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
                     if (result.Equals(DialogResult.Yes)) {
@@ -114,6 +114,8 @@ namespace Student_Enrollment_System
                         courseEnrolled.Text = "Select Course";
                         courseEnrolled.SelectedItem = 0;
                     }
+
+                    con.Close();
 
                 }
                 else

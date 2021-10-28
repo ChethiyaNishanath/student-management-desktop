@@ -41,13 +41,6 @@ namespace Student_Enrollment_System
         private void HomePageForm_Load(object sender, EventArgs e)
         {
             this.FetchData();
-            /*string search_query = "SELECT * FROM Student";
-            con.Open();
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(search_query, con);
-            DataTable table = new DataTable();
-            sqlDataAdapter.Fill(table);
-
-            dataGridView1.DataSource = table;*/
         }
 
         private void Refresh_Click(object sender, EventArgs e)
@@ -64,6 +57,16 @@ namespace Student_Enrollment_System
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void ExitBtn_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Do You Want to Exit?", "Exit",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (result.Equals(DialogResult.OK))
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }

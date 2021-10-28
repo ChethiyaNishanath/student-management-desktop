@@ -21,11 +21,6 @@ namespace Student_Enrollment_System
         SqlConnection con = new SqlConnection(@"Server=.;Database=student_management;" +
             "Trusted_Connection=True;MultipleActiveResultSets=True");
 
-        private void StudentSelectLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void CalculateBtn_Click(object sender, EventArgs e)
         {
 

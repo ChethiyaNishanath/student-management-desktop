@@ -39,6 +39,7 @@ namespace Student_Enrollment_System
             // 
             // CourseFeeTitle
             // 
+            this.CourseFeeTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CourseFeeTitle.AutoSize = true;
             this.CourseFeeTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.CourseFeeTitle.Location = new System.Drawing.Point(303, 38);
@@ -49,6 +50,7 @@ namespace Student_Enrollment_System
             // 
             // StudentNamesCombo
             // 
+            this.StudentNamesCombo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.StudentNamesCombo.FormattingEnabled = true;
             this.StudentNamesCombo.Location = new System.Drawing.Point(337, 173);
             this.StudentNamesCombo.Name = "StudentNamesCombo";
@@ -57,6 +59,7 @@ namespace Student_Enrollment_System
             // 
             // SelectStudentLabel
             // 
+            this.SelectStudentLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SelectStudentLabel.AutoSize = true;
             this.SelectStudentLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.SelectStudentLabel.Location = new System.Drawing.Point(110, 174);
@@ -67,6 +70,7 @@ namespace Student_Enrollment_System
             // 
             // CourseFeeLabel
             // 
+            this.CourseFeeLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CourseFeeLabel.AutoSize = true;
             this.CourseFeeLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.CourseFeeLabel.Location = new System.Drawing.Point(110, 278);
@@ -77,6 +81,7 @@ namespace Student_Enrollment_System
             // 
             // FeeLabel
             // 
+            this.FeeLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.FeeLabel.AutoSize = true;
             this.FeeLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FeeLabel.Location = new System.Drawing.Point(414, 273);
@@ -87,6 +92,7 @@ namespace Student_Enrollment_System
             // 
             // CalculateBtn
             // 
+            this.CalculateBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CalculateBtn.Location = new System.Drawing.Point(414, 365);
             this.CalculateBtn.Name = "CalculateBtn";
             this.CalculateBtn.Size = new System.Drawing.Size(94, 48);
